@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('teachers', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('nip'); // Nomor Induk Pegawai
-            $table->string('subject'); // Mata pelajaran
+            $table->string('nip');
+            $table->string('subject');
 
             $table->timestamps();
         });
